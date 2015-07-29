@@ -28,9 +28,6 @@ defmodule LagerLogger.Mixfile do
     [applications: [:lager, :logger]]
   end
 
-  defp deps do
-    [
-      {:lager, ">= 2.1.0"},
-    ]
-  end
+  defp deps, do: []
+
 end
